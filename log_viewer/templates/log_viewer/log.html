@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Viewer</title>
+</head>
+<body>
+    <h1>Files Log Viewer</h1>
+    <div>
+        {% for logs in log_lines %}
+            <p>{{ logs }}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
